@@ -68,4 +68,16 @@ nav {
     padding: 10px;
 }
 
+/* Main */
+main {
+    overflow-y: auto;
+}
 
+.bg-lightblue {
+    background-color: var(--light-blue);
+}
+
+.student {
+    line-height: 2.5rem;
+    height: 100%;
+}
