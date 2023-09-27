@@ -23,6 +23,13 @@
     background-color: var(--blue);
 }
 
+#app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
 /* Utilities */
 
 :root {
@@ -39,3 +46,26 @@ nav {
 .mobile-logo {
     height: 40px;
 }
+
+/* Sidebar */
+.sidebar {
+    overflow: hidden;
+    background-color: var(--blue);
+    background-image: url(../img/sidebar-bg.png);
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.list-sidebar {
+    width: 150px;
+}
+
+.menu-sidebar {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+
+
