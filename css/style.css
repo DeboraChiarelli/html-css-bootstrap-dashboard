@@ -1,0 +1,41 @@
+/* Debug */
+.debug body {
+    background-color: lightcoral;
+    overflow-y: auto;
+}
+
+.debug .container {
+    border: 1px solid red;
+    background-color: purple;
+}
+
+.debug .row {
+    border: 1px solid orange;
+    background-color: green;
+}
+
+.debug [class^='col'] {
+    border: 1px solid purple;
+    background-color: aquamarine;
+}
+
+.debug .sidebar {
+    background-color: var(--blue);
+}
+
+/* Utilities */
+
+:root {
+    --blue:#051E34;
+    --light-blue:#1B72E8;
+}
+
+/* Navbar */
+
+nav {
+    height: 70px;
+}
+
+.mobile-logo {
+    height: 40px;
+}

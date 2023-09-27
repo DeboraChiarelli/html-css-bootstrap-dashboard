@@ -10,10 +10,53 @@
 </head>
 <body>
     <header>
-
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand bg-body-tertiary">
+            <div class="container-fluid bg-white">
+                <a class="navbar-brand d-lg-none href="#">
+                <img class="mobile-logo" src="./img/mobile-logo.png" alt="#">
+                </a>
+                <a class="navbar-brand d-none d-lg-inline-block" href="#">
+                    <img src="./img/logo.svg" alt="#">
+                </a>
+                <form class="d-flex flex-grow-1 input-group" role="search">
+                    <span class="input-group-text border border-end-0 bg-light" id="searchbar">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </span>
+                    <input type="search" class="form-control me-2 bg-light border border-scart-0 shadow-none" placeholder="Prova a cercare lezioni di Laravel" arial-label="Search" aria-describedby="searchbar">
+                </form>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item d-none d-lg-inline-block">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-list-ul"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item d-none d-lg-inline-block">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-circle-question"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item d-none d-lg-inline-block">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-bell text-warning"></i>
+                        </a>
+                    </li>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">Profilo</a></li>
+                        <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                        <li><a class="dropdown-item" href="#">Logout</a></li>
+                    </ul>
+                </ul>
+            </div>
+        </nav>
     </header>
     <main>
-        
+
     </main>
 
 
