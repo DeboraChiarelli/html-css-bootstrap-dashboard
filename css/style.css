@@ -81,3 +81,7 @@ main {
     line-height: 2.5rem;
     height: 100%;
 }
+
+.bg-blue-badge {
+    background-color: #165BBA;
+}
