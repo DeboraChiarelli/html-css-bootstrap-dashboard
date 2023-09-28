@@ -85,3 +85,8 @@ main {
 .bg-blue-badge {
     background-color: #165BBA;
 }
+
+#table-row th[scope="row"] {
+    line-height: 10px;
+    vertical-align: middle;
+}
