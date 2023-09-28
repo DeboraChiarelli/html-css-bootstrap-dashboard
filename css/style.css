@@ -91,4 +91,7 @@ main {
     vertical-align: middle;
 }*/
 
-#card-faq 
+#card-faq .accordion-button:focus {
+    box-shadow: none;
+    background-color: transparent;
+}
