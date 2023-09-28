@@ -1,7 +1,6 @@
 /* Debug */
 .debug body {
     background-color: lightcoral;
-    overflow-y: auto;
 }
 
 .debug .container {
@@ -30,6 +29,9 @@
     overflow: hidden;
 }
 
+.menu-sidebar:hover {
+    background-color: white;
+}
 /* Utilities */
 
 :root {
@@ -48,6 +50,10 @@ nav {
 }
 
 /* Sidebar */
+.main-container {
+    overflow: hidden;
+}
+
 .sidebar {
     overflow: hidden;
     background-color: var(--blue);
@@ -70,7 +76,7 @@ nav {
 
 /* Main */
 main {
-    overflow-y: auto;
+    overflow: auto;
 }
 
 .bg-lightblue {
