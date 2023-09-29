@@ -101,3 +101,18 @@ main {
     box-shadow: none;
     background-color: transparent;
 }
+
+
+
+
+
+
+/**********************************
+        Responsive
+******************************/
+
+@media screen and (min-width: 992px) {
+    .bg-lightblue .offcanvas {
+        width: 800px !important;
+    }
+}
